@@ -1,0 +1,147 @@
+/*
+/* Created by Mekni Mohamed Fares
+ * Specific styles of signin, register, component
+ */
+/*
+ * General styles
+ */
+ .card {
+     justify-content:center;
+ }
+
+ body, html{ background-image: url(http://4.bp.blogspot.com/-kiFIW2Fdd8s/TpLBJsXribI/AAAAAAAAAHQ/MvjuvLfFiuA/s1600/farm_wallpaper.jpg) ;
+   background-repeat: no-repeat;
+    background-color: #d3d3d3;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.main{
+    margin-top: 70px;
+}
+
+h1.title { 
+   font-size: 50px;
+   font-family: 'Passion One', cursive; 
+   font-weight: 400; 
+}
+
+hr{
+   width: 10%;
+   color: #fff;
+}
+
+.form-group{
+   margin-bottom: 15px;
+}
+
+label{
+   margin-bottom: 15px;
+}
+
+input,
+input::-webkit-input-placeholder {
+   font-size: 11px;
+   padding-top: 3px;
+}
+
+.main-login{
+    background-color: #fff;
+   /* shadows and rounded borders */
+   -moz-border-radius: 2px;
+   -webkit-border-radius: 2px;
+   border-radius: 2px;
+   -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+
+}
+
+.main-center{
+    margin-top: 30px;
+    margin: 0 auto;
+    max-width: 330px;
+   padding: 40px 40px;
+
+}
+
+.login-button{
+   margin-top: 5px;
+}
+
+.login-register{
+   font-size: 11px;
+   text-align: center;
+}
+
+
+
+
+.adbox-img {
+   padding:8px;
+   border: 1px solid #ababab;
+   background-color : #e2e2e2;
+}
+.adbox-img img {
+   border: 1px solid #ababab;
+}
+
+
+
+.tfilter-box {
+   padding:8px;
+   border: 1px solid #ababab;
+   background-color : #e2e2e2;
+}
+
+.form-control, select {
+   display: block;
+   width: 100%;
+   height: 44px;
+   border: 1px solid #ededed;
+   border-radius: 0;
+   background-color: #fff;
+   background-image: none;
+   box-shadow: none;
+   color: #000;
+   font-size: 14px;
+   line-height: 1.42857143;
+}
+
+.price{
+   font-size: 30px;
+    margin: 0 auto;
+    color: #333;
+}
+.right{
+   float:right;
+   border-bottom: 2px solid green;
+}
+.thumbnail{
+   opacity:0.80;
+   -webkit-transition: all 0.5s; 
+   transition: all 0.5s;
+   padding:15px;
+   margin-bottom:25px;
+}
+.thumbnail:hover{
+   opacity:1.00;
+   box-shadow: 0px 0px 10px #e8500e;
+}
+.line{
+   margin-bottom: 5px;
+   
+}
+.ratings {
+    color:green;
+}
+@media screen and (max-width: 770px) {
+   .right{
+      float:left;
+      width: 100%;
+   }
+}
+
+
+
+
+
